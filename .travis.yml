@@ -1,0 +1,12 @@
+﻿language: csharp
+dist: xenial
+os: linux
+sudo: required
+mono: none
+dotnet: 5.0
+
+install:
+  - dotnet restore
+
+script:
+  - dotnet build
